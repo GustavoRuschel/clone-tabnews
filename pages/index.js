@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function Home() {
-    const [text, setText] = useState("Pensa em um número de 1");
+    const [text, setText] = useState("Pensa em um número de 1 até 10");
 
     useEffect(() => {
         const timer = setTimeout(() => {
