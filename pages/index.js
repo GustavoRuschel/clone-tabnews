@@ -5,8 +5,8 @@ function Home() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setText("Vai estudar e para de perder tempo! 😹");
-    }, 2000); // muda o texto após 5 segundos
+      setText("Vai estudar e para de perder tempo! 😹cat");
+    }, 9000000); // muda o texto após 5 segundos
 
     return () => clearTimeout(timer); // limpa o timer se o componente for desmontado
   }, []);
