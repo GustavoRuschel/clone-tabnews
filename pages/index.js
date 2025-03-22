@@ -11,13 +11,18 @@ function Home() {
     return () => clearTimeout(timer); // limpa o timer se o componente for desmontado
   }, []);
 
+  function handleClick() {
+    alert("botão clicando");
+  }
+
   return (
     <div style={{ textAlign: "center", padding: "40px" }}>
       <h1>{text}</h1>
+      <button on click={handleClick}>
+        Click here
+      </button>
     </div>
   );
 }
 
 export default Home;
-
-<button>Click here</button>;
